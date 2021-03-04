@@ -13,6 +13,9 @@
 		B22F71FF25EFE049008B012B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22F71FE25EFE049008B012B /* Preview Assets.xcassets */; };
 		B22F720A25EFE04A008B012B /* Guessing_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F720925EFE04A008B012B /* Guessing_GameTests.swift */; };
 		B22F721525EFE04A008B012B /* Guessing_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F721425EFE04A008B012B /* Guessing_GameUITests.swift */; };
+		B22F722625EFE098008B012B /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F722525EFE098008B012B /* QuizView.swift */; };
+		B22F722B25EFE0AA008B012B /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F722A25EFE0AA008B012B /* FinalView.swift */; };
+		B22F723025EFE0BD008B012B /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F722F25EFE0BD008B012B /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		B22F721025EFE04A008B012B /* Guessing_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guessing_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22F721425EFE04A008B012B /* Guessing_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessing_GameUITests.swift; sourceTree = "<group>"; };
 		B22F721625EFE04A008B012B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22F722525EFE098008B012B /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		B22F722A25EFE0AA008B012B /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		B22F722F25EFE0BD008B012B /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				B22F71F725EFE044008B012B /* Guessing_GameApp.swift */,
 				B22F71F925EFE044008B012B /* ContentView.swift */,
+				B22F722525EFE098008B012B /* QuizView.swift */,
+				B22F722A25EFE0AA008B012B /* FinalView.swift */,
+				B22F722F25EFE0BD008B012B /* QuizModel.swift */,
 				B22F71FB25EFE048008B012B /* Assets.xcassets */,
 				B22F720025EFE049008B012B /* Info.plist */,
 				B22F71FD25EFE049008B012B /* Preview Content */,
@@ -261,6 +270,9 @@
 			files = (
 				B22F71FA25EFE044008B012B /* ContentView.swift in Sources */,
 				B22F71F825EFE044008B012B /* Guessing_GameApp.swift in Sources */,
+				B22F722625EFE098008B012B /* QuizView.swift in Sources */,
+				B22F722B25EFE0AA008B012B /* FinalView.swift in Sources */,
+				B22F723025EFE0BD008B012B /* QuizModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
